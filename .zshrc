@@ -11,7 +11,8 @@ fi
 
 # Path to your Oh My Zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
-
+export LANG=zh_CN.UTF-8
+export LC_CTYPE=zh_CN.UTF
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time Oh My Zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
@@ -79,7 +80,7 @@ alias mv='mv -v'
 alias rm='rm -Iv'
 alias mkdir='mkdir -p'
 alias vim='neovide'
-
+alias ssh119='ssh -i ~/.ssh/id01 -p 2222 root@192.168.122.119'
 # Which plugins would you like to load?
 # Standard plugins can be found in $ZSH/plugins/
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
